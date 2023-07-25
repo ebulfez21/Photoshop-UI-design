@@ -1,0 +1,117 @@
+body{
+  background: #F5F9FF;
+}
+.main-wrapper{
+  
+  display: flex;
+  width: 1600px;
+  height:800px;
+  justify-content: center;
+  align-items: center;
+  background: #f5f9ff;
+  flex-direction: column;
+}
+.main-wrapper img {
+  margin: 38px 379px 37.57px 38px;
+  width: 99px;
+  height: 96.429px;
+  flex-shrink: 0;
+}
+.header-section{
+  display: flex;
+  border-radius: 30px 30px 0 0;
+  width: 516px;
+  height: 172px;
+  flex-shrink: 0;
+  background: #133e61;
+}
+.title-container {
+  margin: 94px 57px 48px 335px;
+  position: absolute;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.content-box {
+  width: 398px;
+  display: flex;
+  padding: 60px 60px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  background-color: #fff;
+}
+.description-text p {
+  width: 340px;
+  height: 80px;
+  color: #001e36;
+  font-family: Muliah;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+}
+.sub-wrapper {
+  width: 516px;
+  height: 238px;
+}
+.content-box h2 {
+  color: #001e36;
+  font-family: Mulish;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.details-link a {
+  color: #1142c1;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+  opacity: 0.800000011920929;
+}
+.buy-btn {
+  margin: auto;
+  display: flex;
+  width: 396px;
+  padding: 0px 16px 16px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 66px;
+  background: #133e61;
+}
+.buy-btn a {
+  margin-top: 10px;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.column-wrapper{
+  z-index: 2;
+  position: relative;
+}
+.box-container {
+  margin: 235px 56.8px 28.99px 38px;
+  position: absolute;
+  width: 519px;
+  height: 639px;
+  transform: rotate(8.816deg);
+  flex-shrink: 0;
+  border-radius: 16px;
+background: #E9F1FD;
+  z-index: 1;
+ 
+}
+.content-box h2,
+.content-box .description-text {
+    margin: 0;
+}
